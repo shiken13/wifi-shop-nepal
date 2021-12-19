@@ -48,7 +48,7 @@ header {
   max-width: 1300px;
   margin: 0 auto;
   position: relative;
-  height: 200px;
+  height: 150px;
 }
 
 @media print, screen and (min-width: 768px) {
@@ -115,16 +115,16 @@ header .profile-area {
   margin: 0 auto;
   margin: 0 5px;
   margin-top: 0px;
-  width: auto;
+  width: 270px;
   max-width: 760px;
   position: relative;
-  top: 100px;
+  top: 50px;
 }
 
 @media print, screen and (min-width: 768px) {
   header .profile-area {
-    top: 200px;
-    margin: 0 auto;
+    left: 180px;
+    top: 150px;
     width: 800px;
     max-width: 1300px;
     margin-top: 0px;
@@ -132,7 +132,7 @@ header .profile-area {
 }
 
 header .profile-area .profile-text {
-  background-color: #c40707;
+  background-color: #e24040;
   -webkit-box-shadow: 1px 1px 3px 1px;
           box-shadow: 1px 1px 3px 1px;
   border-radius: 30px;
@@ -160,18 +160,18 @@ header .profile-area .profile {
 
 header .profile-area .profile2 {
   top: 15%;
-  width: 120px;
-  left: 78%;
+  width: 100px;
+  left: 117%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
 
 @media print, screen and (min-width: 768px) {
   header .profile-area .profile2 {
-    top: 10%;
+    top: 20%;
     left: 115%;
-    height: 220px;
-    width: 200px;
+    height: 280px;
+    width: 220px;
   }
 }
 
@@ -1186,16 +1186,6 @@ footer .follow-me li a[href*="tiktok"]::before {
   content: "\f09a";
 }
 
-#area1 .follow-me li a[href*="wa.me"]::before {
-  background-color: #25d366;
-  content: "\f40c";
-}
-
-#area1 .follow-me li a[href*="twitter.com"]::before {
-  background-color: #55acee;
-  content: "\f099";
-}
-
 #area1 .follow-me li a[href*="youtube.com"]::before {
   background-color: #cd201f;
   content: "\f16a";
@@ -1209,6 +1199,11 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area1 .follow-me li a[href*="tel"]::before {
   background-color: #e73508;
   content: "\f098";
+}
+
+#area1 .follow-me li a[href*="viber"]::before {
+  background-color: #7360F2;
+  content: "\f409";
 }
 
 #area1 .tel-btn {
@@ -1243,34 +1238,34 @@ footer .follow-me li a[href*="tiktok"]::before {
   left: 15px;
 }
 
-#area1 .what-btn {
+#area1 .viber-btn {
   position: relative;
   display: block;
   border-radius: 50px;
   color: white;
   text-align: center;
-  background: #25d366;
+  background: #7360F2;
   padding: 18px 0;
   margin: auto;
   margin-bottom: 20px;
   width: 100%;
-  font-size: 15px;
+  font-size: 20px;
   border: 1px white solid;
 }
 
 @media print, screen and (min-width: 768px) {
-  #area1 .what-btn {
-    padding: 18px 0;
-    font-size: 22px;
+  #area1 .viber-btn {
+    padding: 16px 0;
+    font-size: 30px;
     width: 40vw;
   }
 }
 
-#area1 .what-btn span {
+#area1 .viber-btn span {
   font-weight: bold;
 }
 
-#area1 .what-btn::before {
+#area1 .viber-btn::before {
   content: "";
   background-size: contain;
   width: 24px;
@@ -3856,6 +3851,11 @@ footer .follow-me li a[href*="tiktok"]::before {
   content: "\f098";
 }
 
+#area5 .area5-lower .follow-me li a[href*="viber"]::before {
+  background-color: #7360F2;
+  content: "\f409";
+}
+
 #area5 .area5-lower .tel-btn {
   position: relative;
   display: block;
@@ -3888,34 +3888,34 @@ footer .follow-me li a[href*="tiktok"]::before {
   left: 15px;
 }
 
-#area5 .area5-lower .what-btn {
+#area5 .area5-lower .viber-btn {
   position: relative;
   display: block;
   border-radius: 50px;
   color: white;
   text-align: center;
-  background: #25D366;
+  background: #7360F2;
   padding: 18px 0;
   margin: auto;
   margin-bottom: 20px;
   width: 100%;
-  font-size: 15px;
+  font-size: 20px;
   border: 1px white solid;
 }
 
 @media print, screen and (min-width: 768px) {
-  #area5 .area5-lower .what-btn {
-    padding: 18px 0;
-    font-size: 22px;
+  #area5 .area5-lower .viber-btn {
+    padding: 16px 0;
+    font-size: 30px;
     width: 40vw;
   }
 }
 
-#area5 .area5-lower .what-btn span {
+#area5 .area5-lower .viber-btn span {
   font-weight: bold;
 }
 
-#area5 .area5-lower .what-btn::before {
+#area5 .area5-lower .viber-btn::before {
   content: "";
   background-size: contain;
   width: 20px;
@@ -3926,7 +3926,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 @media print, screen and (min-width: 768px) {
-  #area5 .area5-lower .what-btn::before {
+  #area5 .area5-lower .viber-btn::before {
     width: 24px;
     height: 24px;
   }

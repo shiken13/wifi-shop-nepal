@@ -532,14 +532,7 @@
     background-color: #3b5998;
     content: "\f09a";
   }
-  .follow-me li a[href*="wa.me"]::before {
-    background-color: #25d366;
-    content: "\f40c";
-  }
-  .follow-me li a[href*="twitter.com"]::before {
-    background-color: #55acee;
-    content: "\f099";
-  }
+
   .follow-me li a[href*="youtube.com"]::before {
     background-color: #cd201f;
     content: "\f16a";
@@ -552,6 +545,11 @@
     background-color: #e73508;
     content: "\f098";
   }
+  .follow-me li a[href*="viber"]::before {
+    background-color: #7360F2;
+    content: "\f409";
+  }
+
 
   .tel-btn {
     position: relative;
@@ -580,22 +578,22 @@
       left: 15px;
     }
   }
-  .what-btn {
+  .viber-btn {
     position: relative;
     display: block;
     border-radius: 50px;
     color: white;
     text-align: center;
-    background: #25d366;
+    background: #7360F2;
     padding: 18px 0;
     margin: auto;
     margin-bottom: 20px;
     width: 100%;
-    font-size: 15px;
+    font-size: 20px;
     border: 1px white solid;
     @include overTab {
-      padding: 18px 0;
-      font-size: 22px;
+      padding: 16px 0;
+      font-size: 30px;
       width: 40vw;
     }
     span {

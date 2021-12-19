@@ -430,7 +430,10 @@
       background-color: #e73508;
       content: "\f098";
     }
-
+    .follow-me li a[href*="viber"]::before {
+      background-color: #7360F2;
+      content: "\f409";
+    }
     .tel-btn {
       position: relative;
       display: block;
@@ -458,22 +461,22 @@
         left: 15px;
       }
     }
-    .what-btn {
+    .viber-btn {
       position: relative;
       display: block;
       border-radius: 50px;
       color: white;
       text-align: center;
-      background: #25D366;
+      background: #7360F2;
       padding: 18px 0;
       margin: auto;
       margin-bottom: 20px;
       width: 100%;
-      font-size: 15px;
+      font-size: 20px;
       border: 1px white solid;
       @include overTab {
-        padding: 18px 0;
-        font-size: 22px;
+        padding: 16px 0;
+        font-size: 30px;
         width: 40vw;
       }
       span {

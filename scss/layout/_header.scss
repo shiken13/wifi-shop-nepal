@@ -14,7 +14,7 @@ header {
   max-width: 1300px;
   margin: 0 auto;
   position: relative;
-  height: 200px;
+  height: 150px;
   @include overTab {
     height: 400px;
   }
@@ -62,19 +62,19 @@ header {
     margin: 0 auto;
     margin: 0 5px;
     margin-top: 0px;
-    width: auto;
+    width: 270px;
     max-width: 760px;
     position: relative;
-    top: 100px;
+    top: 50px;
     @include overTab {
-      top: 200px;
-      margin: 0 auto;
+      left: 180px;
+      top: 150px;
       width: 800px;
       max-width: 1300px;
       margin-top: 0px;
     }
     .profile-text {
-      background-color: #c40707;
+      background-color: #e24040;
       box-shadow: 1px 1px 3px 1px;
       border-radius: 30px;
       color: #fff;
@@ -95,14 +95,14 @@ header {
     }
     .profile2 {
       top: 15%;
-      width: 120px;
-      left: 78%;
+      width: 100px;
+      left: 117%;
       transform: translate(-50%, -50%);
       @include overTab {
-        top: 10%;
+        top: 20%;
         left: 115%;
-        height: 220px;
-        width: 200px;
+        height: 280px;
+        width: 220px;
       }
     }
     .profile1 {
