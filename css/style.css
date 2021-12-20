@@ -1202,7 +1202,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area1 .follow-me li a[href*="viber"]::before {
-  background-color: #7360F2;
+  background-color: #7360f2;
   content: "\f409";
 }
 
@@ -1244,19 +1244,19 @@ footer .follow-me li a[href*="tiktok"]::before {
   border-radius: 50px;
   color: white;
   text-align: center;
-  background: #7360F2;
+  background: #7360f2;
   padding: 18px 0;
   margin: auto;
   margin-bottom: 20px;
   width: 100%;
-  font-size: 20px;
+  font-size: 17px;
   border: 1px white solid;
 }
 
 @media print, screen and (min-width: 768px) {
   #area1 .viber-btn {
     padding: 16px 0;
-    font-size: 30px;
+    font-size: 27px;
     width: 40vw;
   }
 }
@@ -3899,14 +3899,14 @@ footer .follow-me li a[href*="tiktok"]::before {
   margin: auto;
   margin-bottom: 20px;
   width: 100%;
-  font-size: 20px;
+  font-size: 17px;
   border: 1px white solid;
 }
 
 @media print, screen and (min-width: 768px) {
   #area5 .area5-lower .viber-btn {
     padding: 16px 0;
-    font-size: 30px;
+    font-size: 27px;
     width: 40vw;
   }
 }
