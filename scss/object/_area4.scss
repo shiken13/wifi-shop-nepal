@@ -69,7 +69,7 @@
   }
   .list_design1 li {
     position: relative;
-    padding: 10px 20px;
+    padding: 15px 20px;
     padding-left: 63px;
     line-height: 30px;
     border-bottom: 2px dotted red;
@@ -83,6 +83,7 @@
       padding: 1rem 1rem;
       margin: 1rem;
       padding-left: 60px;
+      padding-right: 200px;
     }
   }
   .list_design1 li:before {
@@ -153,6 +154,9 @@
       font-size: 22px;
       margin: 0;
       padding: 0;
+      @include overTab {
+        font-size: 28px;
+      }
     }
   }
 
@@ -160,21 +164,21 @@
     position: absolute;
     margin: 0 auto;
     width: auto;
-    top: 158%;
+    top: 165%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 200px;
     @include overTab {
       width: 440px;
       height: 260px;
-      top: 36%;
+      top: 38%;
       left: 80%;
     }
   }
   .mokumoku3 {
     position: absolute;
     z-index: 2;
-    top: 4%;
+    top: 8%;
     left: 60%;
     transform: translate(-50%, -50%);
     transform: rotate(15deg);
@@ -183,7 +187,7 @@
     @include overTab {
       top: 10%;
       left: 40%;
-      width: 350px;
+      width: 300px;
       height: 120px;
     }
   }
@@ -192,14 +196,14 @@
     z-index: 2;
     font-size: 15px;
     font-weight: bold;
-    top: 6%;
-    left: 62%;
+    top: 10%;
+    left: 65%;
     transform: translate(-50%, -50%);
     transform: rotate(18deg);
     @include overTab {
       top: 14%;
-      left: 45%;
-      font-size: 25px;
+      left: 43%;
+      font-size: 30px;
     }
     &::before {
       font-family: "Font Awesome 5 Free";
@@ -212,13 +216,13 @@
   .area3-image1 {
     width: 260px;
     position: absolute;
-    top: 115%;
+    top: 120%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 4;
     @include overTab {
       width: 300px;
-      top: 80%;
+      top: 83%;
       left: 80%;
       transform: translate(-50%, -50%);
     }
@@ -226,32 +230,32 @@
   .kira1 {
     width: 220px;
     position: absolute;
-    top: 105%;
+    top: 108%;
     left: 75%;
     transform: translate(-50%, -50%);
     z-index: 5;
     @include overTab {
       width: 300px;
-      top: 70%;
+      top: 74%;
       left: 88%;
     }
   }
   .kira2 {
     width: 220px;
     position: absolute;
-    top: 103%;
+    top: 106%;
     left: 35%;
     transform: translate(-50%, -50%);
     z-index: 5;
     @include overTab {
       width: 320px;
-      top: 65%;
+      top: 70%;
       left: 75%;
     }
   }
   .circle3 {
     position: absolute;
-    top: 120%;
+    top: 126%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(210, 244, 247, 0.808);
@@ -270,8 +274,8 @@
   .sim-text3 {
     position: absolute;
     padding: 5px 0;
-    width: 250px;
-    top: 125%;
+    width: 230px;
+    top: 132%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;
@@ -283,7 +287,7 @@
     color: #fff;
     text-shadow: -3px 2px 0 #000;
     @include overTab {
-      top: 92%;
+      top: 95%;
       left: 80%;
     }
   }

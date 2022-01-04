@@ -75,13 +75,13 @@
   }
   .list_design1 li {
     position: relative;
-    padding: 10px 20px;
+    padding: 15px 20px;
     // margin: 1rem;
     padding-left: 63px;
     line-height: 30px;
     border-bottom: 2px dotted red;
     color: #333;
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 5px;
     @include overTab {
       font-size: 38px;
@@ -179,12 +179,15 @@
       font-size: 22px;
       margin: 0; 
       padding: 0;
+      @include overTab {
+        font-size: 28px;
+      }
     }
   }
   .mokumoku1{
     position: absolute;
     z-index: 2;
-    top: 7%;
+    top: 5%;
     left: 65%;
     transform: translate(-50%, -50%);
     transform: rotate(15deg);
@@ -192,23 +195,23 @@
     height: 50px;
     @include overTab {
       top: 9%;
-      left: 40%;
-      width: 350px;
+      left: 42%;
+      width: 300px;
       height: 120px;
     }
   }
   .recommend1{
     position: absolute;
     z-index: 2;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
-    top: 8%;
+    top: 7%;
     left: 67%;
     transform: translate(-50%, -50%);
     transform:rotate(18deg);
     @include overTab {
-      top: 12%;
-      left: 42%;
+      top: 13%;
+      left: 45%;
       font-size: 30px;
     }
     &::before{
@@ -244,7 +247,7 @@
   .area3-image1{
     width: 250px;
     position: absolute;
-    top: 111%;
+    top: 115%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 4;
@@ -274,7 +277,7 @@
   .kira1{
     width: 200px;
     position: absolute;
-    top: 103%;
+    top: 107%;
     left: 70%;
     transform: translate(-50%, -50%);
     z-index: 5;
@@ -287,7 +290,7 @@
   .kira2{
     width: 200px;
     position: absolute;
-    top: 103%;
+    top: 105%;
     left: 45%;
     transform: translate(-50%, -50%);
     z-index: 5;
@@ -300,7 +303,7 @@
   .kira3{
     width: 130px;
     position: absolute;
-    top: 103%;
+    top: 106%;
     left: 73%;
     transform: translate(-50%, -50%);
     transform: rotate(90deg);
@@ -313,7 +316,7 @@
   }
   .circle1, .circle2 {
     position: absolute;
-    top: 115%;
+    top: 120%;
     left:50%;
     transform: translate(-50%, -50%);
     background: rgba(229, 250, 252, 0.858);
@@ -338,7 +341,7 @@
   .sim-text1, .sim-text2{
     position: absolute;
     width: 220px;
-    top: 119%;
+    top: 125%;
     left:50%;
     padding: 5px 0;
     transform: translate(-50%, -50%);
