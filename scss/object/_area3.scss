@@ -84,7 +84,7 @@
     font-size: 24px;
     margin-bottom: 5px;
     @include overTab {
-      font-size: 30px;
+      font-size: 38px;
       margin-bottom: 30px;
       padding: 1rem 1rem;
       margin: 1rem;
@@ -166,7 +166,7 @@
       padding: 0 9px;
       height: 40px;
       line-height: 45px;
-      font-size: 30px;
+      font-size: 25px;
       background: #ea551c;
       color: #ffffff;
       font-weight: bold;
@@ -180,16 +180,6 @@
       margin: 0; 
       padding: 0;
     }
-  }
-  // .area3-textarea2{
-  //   margin-bottom: 700px;
-  //   @include overTab {
-  //     margin-bottom: inherit;
-  //   }
-  // }
-  #emoji5:before {
-    content: "\026A0";
-    padding-right: 3px;
   }
   .mokumoku1{
     position: absolute;
@@ -269,7 +259,7 @@
     position: absolute;
     margin: 0 auto;
     width: auto;
-    top: 139%;
+    top: 150%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 200px;

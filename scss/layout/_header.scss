@@ -78,12 +78,12 @@ header {
       box-shadow: 1px 1px 3px 1px;
       border-radius: 30px;
       color: #fff;
-      padding: 20px 20px;
-      font-size: 16px;
+      padding: 10px 10px;
+      font-size: 14px;
       line-height: 1.5;
       margin-top: 80px;
       @include overTab {
-        font-size: 35px;
+        font-size: 30px;
         padding: 40px 40px;
         padding-right: inherit;
         margin-top: 100px;
@@ -126,11 +126,7 @@ header {
     padding-right: 3px;
   }
   #emoji2:before {
-    content: "\01F1F3 \01F1F5";
-    padding-right: 3px;
-  }
-  #emoji3:before {
-    content: "\01F1EF \01F1F5";
+    content: "\01F647";
     padding-right: 3px;
   }
 }

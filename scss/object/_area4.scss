@@ -78,7 +78,7 @@
     margin-bottom: 5px;
     overflow-wrap: break-word;
     @include overTab {
-      font-size: 30px;
+      font-size: 38px;
       margin-bottom: 30px;
       padding: 1rem 1rem;
       margin: 1rem;
@@ -155,15 +155,12 @@
       padding: 0;
     }
   }
-  #emoji6:before {
-    content: "\01F91D";
-    padding-right: 3px;
-  }
+
   .video iframe {
     position: absolute;
     margin: 0 auto;
     width: auto;
-    top: 148%;
+    top: 158%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 200px;

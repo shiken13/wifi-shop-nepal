@@ -87,7 +87,7 @@
     background-color: rgba(255, 255, 255, 0.548);
     @include overTab {
       margin-left: 30px;
-      margin-bottom: 100px;
+      margin-bottom: 300px;
       width: 45%;
       max-width: 1300px;
     }
@@ -109,8 +109,8 @@
       }
     }
     p {
-      font-size: 22px;
-      margin: 0;
+      font-size: 30px;
+      margin: 50px 0;
       padding: 0;
       overflow-wrap: break-word;
     }
@@ -166,7 +166,7 @@
   .area5-image1 {
     width: 240px;
     position: absolute;
-    top: 112%;
+    top: 132%;
     left: 30%;
     transform: translate(-50%, -50%);
     z-index: 4;
@@ -179,7 +179,7 @@
   }
   .area5-image2 {
     width: 240px;
-    top: 120%;
+    top: 140%;
     left: 72%;
     @include overTab {
       width: 370px;
@@ -191,7 +191,7 @@
   .kira1 {
     width: 220px;
     position: absolute;
-    top: 105%;
+    top: 125%;
     left: 58%;
     transform: translate(-50%, -50%);
     z-index: 5;
@@ -204,7 +204,7 @@
   .kira2 {
     width: 220px;
     position: absolute;
-    top: 105%;
+    top: 125%;
     left: 35%;
     transform: translate(-50%, -50%);
     z-index: 5;
@@ -217,7 +217,7 @@
   .kira3 {
     width: 220px;
     position: absolute;
-    top: 105%;
+    top: 125%;
     left: 35%;
     transform: translate(-50%, -50%);
     z-index: 5;
@@ -229,7 +229,7 @@
   }
   .circle3 {
     position: absolute;
-    top: 122%;
+    top: 142%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(210, 244, 247, 0.808);
@@ -238,8 +238,8 @@
     height: 10em;
     width: 20em;
     @include overTab {
-      height: 20em;
-      width: 38em;
+      height: 18em;
+      width: 32em;
       top: 70%;
       left: 75%;
       transform: translate(-50%, -50%);
@@ -248,7 +248,7 @@
   .sim-text3 {
     position: absolute;
     width: 250px;
-    top: 128%;
+    top: 158%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;
@@ -369,6 +369,14 @@
         left: 70%;
         font-size: 3.5rem;
       }
+    }
+    #emoji1:before {
+      content: "\01F69A";
+      padding-right: 3px;
+    }
+    #emoji2:before {
+      content: "\01F64F";
+      padding-right: 3px;
     }
 
     /* LINE TEL */
