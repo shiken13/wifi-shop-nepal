@@ -74,7 +74,7 @@
     line-height: 30px;
     border-bottom: 2px dotted red;
     color: #333;
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 5px;
     @include overTab {
       font-size: 25px;
@@ -308,12 +308,12 @@
   }
   .mokumoku {
     position: absolute;
-    top: -12%;
-    left: 60%;
+    top: -18%;
+    left: 50%;
     transform: translate(-50%, -50%);
     transform: rotate(15deg);
-    width: 150px;
-    height: 60px;
+    width: 210px;
+    height: 80px;
     @include overTab {
       top: -20%;
       left: 25%;
@@ -323,10 +323,10 @@
   }
   .point {
     position: absolute;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
-    top: -4%;
-    left: 62%;
+    top: -8%;
+    left: 52%;
     transform: translate(-50%, -50%);
     transform: rotate(18deg);
     z-index: 6;
@@ -352,7 +352,7 @@
     border-radius: 30px;
     width: 85%;
     margin-left: 10px;
-    margin-bottom: 300px;
+    margin-bottom: 350px;
     background-color: rgba(255, 255, 255, 0.548);
     @include overTab {
       width: auto;

@@ -195,7 +195,7 @@
   .kira1 {
     width: 220px;
     position: absolute;
-    top: 125%;
+    top: 115%;
     left: 58%;
     transform: translate(-50%, -50%);
     z-index: 5;
@@ -208,7 +208,7 @@
   .kira2 {
     width: 220px;
     position: absolute;
-    top: 125%;
+    top: 115%;
     left: 35%;
     transform: translate(-50%, -50%);
     z-index: 5;
@@ -221,7 +221,7 @@
   .kira3 {
     width: 220px;
     position: absolute;
-    top: 125%;
+    top: 115%;
     left: 35%;
     transform: translate(-50%, -50%);
     z-index: 5;
@@ -294,7 +294,7 @@
         width: 530px;
       }
     }
-   
+
     .sagawa1,
     .sagawa2 {
       position: absolute;
@@ -340,7 +340,7 @@
       z-index: 5;
       text-align: center;
       font-size: 1.4rem;
-      font-weight:bold;
+      font-weight: bold;
       letter-spacing: 0.1em;
       color: rgb(245, 76, 188);
       text-shadow: -3px 2px 0 #000;
@@ -352,8 +352,8 @@
         left: 15%;
       }
     }
- 
-    .map-back{
+
+    .map-back {
       opacity: 0.4;
     }
     h2 {
@@ -362,16 +362,18 @@
       top: 40%;
       left: 55%;
       transform: translate(-50%, -50%);
-      font-size: 2.0rem;
+      font-size: 2rem;
       font-style: italic;
       color: #fff;
       text-shadow: -3px 2px 0 #000;
+      padding-left: 20px;
       @include overTab {
         top: 30%;
         letter-spacing: 0.1em;
         width: 750px;
         left: 70%;
-        font-size: 3.5rem;
+        font-size: 3.4rem;
+        padding-left: inherit;
       }
     }
     #emoji1:before {
@@ -380,13 +382,13 @@
       font-size: 38px;
       position: absolute;
       left: 42%;
-      top:4%;
+      top: 4%;
       @include overTab {
-        top:inherit;
+        top: inherit;
         left: 18%;
       }
     }
-    
+
     #emoji2:before {
       content: "\01F64F";
       padding-right: 3px;
@@ -436,7 +438,7 @@
       content: "\f09a";
     }
     .follow-me li a[href*="wa.me"]::before {
-      background-color: #25D366;
+      background-color: #25d366;
       content: "\f40c";
     }
     .follow-me li a[href*="youtube.com"]::before {
@@ -452,7 +454,7 @@
       content: "\f098";
     }
     .follow-me li a[href*="viber"]::before {
-      background-color: #7360F2;
+      background-color: #7360f2;
       content: "\f409";
     }
     .tel-btn {
@@ -488,7 +490,7 @@
       border-radius: 50px;
       color: white;
       text-align: center;
-      background: #7360F2;
+      background: #7360f2;
       padding: 18px 0;
       margin: auto;
       margin-bottom: 20px;
@@ -530,8 +532,7 @@
     height: 350px;
     position: relative;
     margin: 0 auto;
-    box-shadow: 1px 3px 20px 10px white,
-    inset 10px 3px 20px 10px whitesmoke;
+    box-shadow: 1px 3px 20px 10px white, inset 10px 3px 20px 10px whitesmoke;
     @include overTab {
       height: 400px;
       max-width: 1500px;
@@ -546,7 +547,7 @@
     top: 0;
     bottom: 0;
   }
-  
+
   .map h1,
   .map h2 {
     letter-spacing: 0.1em;
@@ -555,9 +556,8 @@
     font-size: 12px;
     z-index: 100;
   }
-  
-  
-  .map h1{
+
+  .map h1 {
     color: white;
     position: absolute;
     font-size: 30px;
@@ -579,13 +579,13 @@
       left: 10%;
     }
   }
-  
+
   @media print, screen and (min-width: 768px) {
     .map h1 {
       font-size: 2rem;
     }
   }
-  
+
   .map h2 {
     color: white;
     position: absolute;
@@ -600,17 +600,17 @@
     text-align: left;
     letter-spacing: 0.15rem;
     @include overTab {
-      top: 28%;
+      top: 24%;
     }
   }
-  
+
   @media print, screen and (min-width: 768px) {
     .map h2 {
       margin-bottom: inherit;
       font-size: 1.5rem;
     }
   }
-  
+
   .map .map-back {
     height: 60%;
     width: 100%;
@@ -619,17 +619,16 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
-  
+
   @media print, screen and (min-width: 768px) {
     .map .map-back {
       height: 200px;
       width: 70%;
     }
   }
-
 
   .container-area {
     display: flex;
@@ -698,7 +697,7 @@
       width: 90px;
       height: 90px;
     }
-    img{
+    img {
       position: relative;
       border-radius: 1px solid black;
       top: 0.5px;
@@ -780,14 +779,14 @@
     font-family: FontAwesome;
   }
   .what a[href*="wa.me"]::before {
-    background-color: #25D366;
+    background-color: #25d366;
     content: "\f40c";
   }
   .what a::after {
     font-family: FontAwesome;
   }
   .what a[href*="wa.me"]::after {
-    background-color: #25D366;
+    background-color: #25d366;
     content: "\f40c";
   }
   /* Social media links: facebook  */
@@ -825,14 +824,14 @@
     font-family: FontAwesome;
   }
   .viber a[href*="viber"]::before {
-    background-color: #7360F2;
+    background-color: #7360f2;
     content: "\f409";
   }
   .viber a::after {
     font-family: FontAwesome;
   }
   .viber a[href*="viber"]::after {
-    background-color: #7360F2;
+    background-color: #7360f2;
     content: "\f409";
   }
 

@@ -683,7 +683,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 35px 0;
+  padding: 50px 0;
 }
 
 @media print, screen and (min-width: 768px) {
@@ -1431,7 +1431,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   line-height: 30px;
   border-bottom: 2px dotted red;
   color: #333;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 5px;
 }
 
@@ -1742,14 +1742,14 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 #area1-1 .mokumoku {
   position: absolute;
-  top: -12%;
-  left: 60%;
+  top: -18%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-transform: rotate(15deg);
           transform: rotate(15deg);
-  width: 150px;
-  height: 60px;
+  width: 210px;
+  height: 80px;
 }
 
 @media print, screen and (min-width: 768px) {
@@ -1763,10 +1763,10 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 #area1-1 .point {
   position: absolute;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
-  top: -4%;
-  left: 62%;
+  top: -8%;
+  left: 52%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-transform: rotate(18deg);
@@ -1798,7 +1798,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   border-radius: 30px;
   width: 85%;
   margin-left: 10px;
-  margin-bottom: 300px;
+  margin-bottom: 350px;
   background-color: rgba(255, 255, 255, 0.548);
 }
 
@@ -2150,7 +2150,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 #area2 .mokumoku {
   position: absolute;
-  top: -13%;
+  top: -8%;
   left: 58%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -2173,7 +2173,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   position: absolute;
   font-size: 10px;
   font-weight: bold;
-  top: -7%;
+  top: -3%;
   left: 62%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -2323,7 +2323,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   border-radius: 30px;
   width: 85%;
   margin-left: 10px;
-  margin-bottom: 300px;
+  margin-bottom: 330px;
   background-color: rgba(255, 255, 255, 0.548);
 }
 
@@ -2342,7 +2342,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   padding: 0 9px;
   height: 40px;
   line-height: 45px;
-  font-size: 30px;
+  font-size: 25px;
   background: #ea551c;
   color: #ffffff;
   font-weight: bold;
@@ -2756,7 +2756,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   position: absolute;
   margin: 0 auto;
   width: auto;
-  top: 150%;
+  top: 148%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -3061,7 +3061,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   padding: 0 9px;
   height: 40px;
   line-height: 45px;
-  font-size: 30px;
+  font-size: 25px;
   background: #ea551c;
   color: #ffffff;
   font-weight: bold;
@@ -3090,7 +3090,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   position: absolute;
   margin: 0 auto;
   width: auto;
-  top: 165%;
+  top: 163%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -3528,7 +3528,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area5 .kira1 {
   width: 220px;
   position: absolute;
-  top: 125%;
+  top: 115%;
   left: 58%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -3546,7 +3546,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area5 .kira2 {
   width: 220px;
   position: absolute;
-  top: 125%;
+  top: 115%;
   left: 35%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -3564,7 +3564,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area5 .kira3 {
   width: 220px;
   position: absolute;
-  top: 125%;
+  top: 115%;
   left: 35%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -3755,10 +3755,11 @@ footer .follow-me li a[href*="tiktok"]::before {
   left: 55%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-style: italic;
   color: #fff;
   text-shadow: -3px 2px 0 #000;
+  padding-left: 20px;
 }
 
 @media print, screen and (min-width: 768px) {
@@ -3767,7 +3768,8 @@ footer .follow-me li a[href*="tiktok"]::before {
     letter-spacing: 0.1em;
     width: 750px;
     left: 70%;
-    font-size: 3.5rem;
+    font-size: 3.4rem;
+    padding-left: inherit;
   }
 }
 
@@ -3853,7 +3855,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area5 .area5-lower .follow-me li a[href*="wa.me"]::before {
-  background-color: #25D366;
+  background-color: #25d366;
   content: "\f40c";
 }
 
@@ -3873,7 +3875,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area5 .area5-lower .follow-me li a[href*="viber"]::before {
-  background-color: #7360F2;
+  background-color: #7360f2;
   content: "\f409";
 }
 
@@ -3915,7 +3917,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   border-radius: 50px;
   color: white;
   text-align: center;
-  background: #7360F2;
+  background: #7360f2;
   padding: 18px 0;
   margin: auto;
   margin-bottom: 20px;
@@ -3964,8 +3966,8 @@ footer .follow-me li a[href*="tiktok"]::before {
   height: 350px;
   position: relative;
   margin: 0 auto;
-  -webkit-box-shadow: 1px 3px 20px 10px white, inset 10px 3px 20px 10px whitesmoke;
-          box-shadow: 1px 3px 20px 10px white, inset 10px 3px 20px 10px whitesmoke;
+  -webkit-box-shadow: 1px 3px 20px 10px white, inset 10px 3px 20px 10px whitesmoke;
+          box-shadow: 1px 3px 20px 10px white, inset 10px 3px 20px 10px whitesmoke;
 }
 
 @media print, screen and (min-width: 768px) {
@@ -4043,7 +4045,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 @media print, screen and (min-width: 768px) {
   #area5 .map h2 {
-    top: 28%;
+    top: 24%;
   }
 }
 
@@ -4259,7 +4261,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area5 .what a[href*="wa.me"]::before {
-  background-color: #25D366;
+  background-color: #25d366;
   content: "\f40c";
 }
 
@@ -4268,7 +4270,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area5 .what a[href*="wa.me"]::after {
-  background-color: #25D366;
+  background-color: #25d366;
   content: "\f40c";
 }
 
@@ -4313,7 +4315,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area5 .viber a[href*="viber"]::before {
-  background-color: #7360F2;
+  background-color: #7360f2;
   content: "\f409";
 }
 
@@ -4322,7 +4324,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area5 .viber a[href*="viber"]::after {
-  background-color: #7360F2;
+  background-color: #7360f2;
   content: "\f409";
 }
 
