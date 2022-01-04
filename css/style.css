@@ -1763,7 +1763,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 #area1-1 .point {
   position: absolute;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   top: -8%;
   left: 52%;
@@ -3778,7 +3778,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   padding-right: 3px;
   font-size: 38px;
   position: absolute;
-  left: 42%;
+  left: 44%;
   top: 4%;
 }
 
