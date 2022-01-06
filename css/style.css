@@ -817,12 +817,13 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area1 .GB1 {
   font-size: 0.7rem;
   color: #fff;
-  text-shadow: 3px 3px 0 #000, -3px -3px 0 #000, -3px 3px 0 #000, 3px -3px 0 #000, 0px 3px 0 #000, 0 -3px 0 #000, -3px 0 0 #000, 3px 0 0 #000;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, 0px 1px 0 #000, 0 -1px 0 #000, -1px 0 0 #000, 1px 0 0 #000;
 }
 
 @media print, screen and (min-width: 768px) {
   #area1 .GB1 {
     font-size: 1.8rem;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000, -3px 3px 0 #000, 3px -3px 0 #000, 0px 3px 0 #000, 0 -3px 0 #000, -3px 0 0 #000, 3px 0 0 #000;
   }
 }
 
@@ -832,14 +833,15 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area1 .GB {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   color: #fff;
-  text-shadow: 3px 3px 0 #000, -3px -3px 0 #000, -3px 3px 0 #000, 3px -3px 0 #000, 0px 3px 0 #000, 0 -3px 0 #000, -3px 0 0 #000, 3px 0 0 #000;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, 0px 1px 0 #000, 0 -1px 0 #000, -1px 0 0 #000, 1px 0 0 #000;
 }
 
 @media print, screen and (min-width: 768px) {
   #area1 .GB {
     font-size: 1.5rem;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000, -3px 3px 0 #000, 3px -3px 0 #000, 0px 3px 0 #000, 0 -3px 0 #000, -3px 0 0 #000, 3px 0 0 #000;
   }
 }
 
