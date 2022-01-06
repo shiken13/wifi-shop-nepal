@@ -559,7 +559,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 @media print, screen and (min-width: 768px) {
   #area1 .area1-image1 {
-    padding: 50px 0;
+    padding: 45px 0;
     padding-left: 20px;
     width: 100%;
     height: 18vh;
@@ -580,7 +580,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 @media print, screen and (min-width: 768px) {
   #area1 .area1-image4 {
-    padding: 50px 0;
+    padding: 40px 0;
     padding-left: 20px;
     width: 100%;
     height: 18vh;
@@ -590,8 +590,8 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area1 .area1-image2 {
   width: 90px;
   position: absolute;
-  top: -25%;
-  left: 55%;
+  top: -15%;
+  left: 58%;
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
   z-index: 4;
@@ -603,12 +603,12 @@ footer .follow-me li a[href*="tiktok"]::before {
   #area1 .area1-image2 {
     width: 220px;
     top: -15%;
-    left: 65%;
+    left: 67%;
   }
 }
 
 #area1 .area1-image2-1 {
-  left: 72%;
+  left: 77%;
 }
 
 @media print, screen and (min-width: 768px) {
@@ -620,10 +620,10 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area1 .area1-image3 {
-  width: 110px;
+  width: 100px;
   position: absolute;
   top: 0%;
-  left: 68%;
+  left: 71%;
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
   -webkit-box-shadow: 1px 3px 20px 10px #f7f77d, inset 10px 3px 20px 10px #f7f77d;
@@ -642,7 +642,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   width: 130px;
   position: absolute;
   top: -10%;
-  left: 66%;
+  left: 69%;
   -webkit-filter: drop-shadow(0px 0px 20px #fafa3b);
           filter: drop-shadow(0px 0px 20px #fafa3b);
 }
@@ -650,8 +650,8 @@ footer .follow-me li a[href*="tiktok"]::before {
 @media print, screen and (min-width: 768px) {
   #area1 .area1-image5 {
     top: -5%;
-    left: 55%;
-    width: 320px;
+    left: 59%;
+    width: 310px;
     height: 200px;
   }
 }
@@ -668,7 +668,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 @media print, screen and (min-width: 768px) {
   #area1 .area1-image6 {
     top: -5%;
-    left: 75%;
+    left: 78%;
     width: 320px;
     height: 200px;
   }
@@ -688,7 +688,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 @media print, screen and (min-width: 768px) {
   #area1 .area1-image7 {
-    padding: 80px 0;
+    padding: 100px 0;
     padding-left: 20px;
     width: 100%;
     height: 18vh;
@@ -698,8 +698,8 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area1 .area1-image8 {
   width: 100px;
   position: absolute;
-  top: -5%;
-  left: 70%;
+  top: -7%;
+  left: 72%;
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
   -webkit-box-shadow: 1px 3px 20px 10px #f7f77d, inset 10px 3px 20px 10px #f7f77d;
@@ -728,7 +728,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 @media print, screen and (min-width: 768px) {
   #area1 .area1-image9 {
-    padding: 90px 0;
+    padding: 60px 0;
     padding-left: 20px;
     width: 100%;
     height: 18vh;
@@ -794,7 +794,7 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 #area1 .text1-title {
   color: #f3d53d;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.342), -1px -1px 0 rgba(255, 255, 255, 0.342), -1px 1px 0 rgba(255, 255, 255, 0.342), 1px -1px 0 rgba(255, 255, 255, 0.342), 0px 1px 0 rgba(255, 255, 255, 0.342), 0 -1px 0 rgba(255, 255, 255, 0.342), -1px 0 0 rgba(255, 255, 255, 0.342), 1px 0 0 rgba(255, 255, 255, 0.342);
 }
 
@@ -805,24 +805,24 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area1 .text1-1-title {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 @media print, screen and (min-width: 768px) {
   #area1 .text1-1-title {
-    font-size: 2.0rem;
+    font-size: 2rem;
   }
 }
 
 #area1 .GB1 {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #fff;
   text-shadow: 3px 3px 0 #000, -3px -3px 0 #000, -3px 3px 0 #000, 3px -3px 0 #000, 0px 3px 0 #000, 0 -3px 0 #000, -3px 0 0 #000, 3px 0 0 #000;
 }
 
 @media print, screen and (min-width: 768px) {
   #area1 .GB1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -832,14 +832,14 @@ footer .follow-me li a[href*="tiktok"]::before {
 }
 
 #area1 .GB {
-  font-size: 1.2rem;
+  font-size: 0.7rem;
   color: #fff;
   text-shadow: 3px 3px 0 #000, -3px -3px 0 #000, -3px 3px 0 #000, 3px -3px 0 #000, 0px 3px 0 #000, 0 -3px 0 #000, -3px 0 0 #000, 3px 0 0 #000;
 }
 
 @media print, screen and (min-width: 768px) {
   #area1 .GB {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -847,14 +847,14 @@ footer .follow-me li a[href*="tiktok"]::before {
 #area1 .price2 {
   color: #e43e5a;
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, 0px 1px 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff, 1px 0 0 #fff;
 }
 
 @media print, screen and (min-width: 768px) {
   #area1 .price1,
   #area1 .price2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 }
 
