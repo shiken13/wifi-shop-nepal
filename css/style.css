@@ -623,7 +623,7 @@ footer .follow-me li a[href*="tiktok"]::before {
   width: 100px;
   position: absolute;
   top: 0%;
-  left: 71%;
+  left: 73%;
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
   -webkit-box-shadow: 1px 3px 20px 10px #f7f77d, inset 10px 3px 20px 10px #f7f77d;
@@ -931,8 +931,9 @@ footer .follow-me li a[href*="tiktok"]::before {
 
 @media print, screen and (min-width: 768px) {
   #area1 .video iframe {
-    width: 70%;
+    width: 80%;
     height: 100%;
+    max-width: 1200px;
   }
 }
 
