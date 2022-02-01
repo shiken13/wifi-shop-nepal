@@ -30,28 +30,6 @@
     color: white;
     font-weight: bold;
   }
-  .heading-text {
-    visibility: hidden;
-    @include overTab {
-    }
-  }
-  .heading1::before {
-    content: attr(data-en);
-    position: absolute;
-    top: -30px;
-    left: 40px;
-    color: rgba(255, 255, 255, 0.521);
-    font-size: 50px;
-    text-transform: uppercase;
-    z-index: 1;
-    font-style: italic;
-    @include overTab {
-      font-size: 70px;
-      top: -40px;
-      left: 60px;
-    }
-  }
-
   .list_design1 {
     list-style: none;
     counter-reset: list;
@@ -238,51 +216,6 @@
       color: #ffdc00;
     }
   }
-  .wifi-customer {
-    position: absolute;
-    top: 280%;
-    left: 65%;
-    transform: translate(-50%, -50%);
-    transform: rotate(15deg);
-    width: 100px;
-    box-shadow: 10px 10px 0 #c3a400;
-    z-index: 10;
-    @include overTab {
-      width: 200px;
-      top: 120%;
-      left: 78%;
-      transform: rotate(15deg);
-    }
-  }
-  .fukidashi1 {
-    width: 120px;
-    height: 50px;
-    top: 285%;
-    left: 66%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    z-index: 11;
-    @include overTab {
-      width: 300px;
-      height: 80px;
-      top: 120%;
-      left: 80%;
-    }
-  }
-  .customer-text {
-    top: 285%;
-    left: 66%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    font-size: 13px;
-    font-weight: bold;
-    z-index: 11;
-    @include overTab {
-      font-size: 30px;
-      top: 120%;
-      left: 80%;
-    }
-  }
   .circle {
     position: absolute;
     top: 315%;
@@ -359,12 +292,6 @@
       content: "\01F69A";
       padding-right: 3px;
     }
-    .text-display {
-      display: none;
-      @include overTab {
-        display: block;
-      }
-    }
     p {
       font-size: 22px;
       margin: 0;
@@ -381,7 +308,6 @@
     position: relative;
     margin-bottom: 100px;
     @include overTab {
-      // padding-bottom: 56.25%;
       padding-bottom: 100px;
       margin-bottom: inherit;
     }

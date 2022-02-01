@@ -37,42 +37,6 @@
     color: white;
     font-weight: bold;
   }
-  .heading3::before {
-    content: attr(data-en);
-    position: absolute;
-    top: -30px;
-    left: 50px;
-    color: rgba(255, 255, 255, 0.521);
-    font-size: 38px;
-    text-transform: uppercase;
-    z-index: 1;
-    font-style: italic;
-    @include overTab {
-      font-size: 70px;
-      top: -40px;
-      left: 60px;
-    }
-  }
-  h3 {
-    color: black;
-    font-size: 20px;
-    border-left: solid 8px orange; /*左側の線*/
-    background: whitesmoke; /*背景色*/
-    margin-bottom: 5px; /*下のバーとの余白*/
-    margin-left: 10px;
-    margin-top: 5px;
-    line-height: 1.5;
-    border-radius: 0 15px 15px 0; /*右側の角だけ丸く*/
-    padding: 0.5em;
-    width: 80%;
-    list-style-type: none !important;
-    @include overTab {
-      font-size: 25px;
-      width: 50%;
-      margin-left: 30px;
-      margin-top: 25px;
-    }
-  }
   .area5-textarea {
     position: relative;
     margin: 2em 0;
@@ -117,54 +81,6 @@
         margin: 50px 0;
         font-size: 30px;
       }
-    }
-  }
-  #emoji7:before {
-    content: "\026A0";
-    // content: "\1F6AB";
-    padding-right: 3px;
-  }
-  #emoji8:before {
-    content: "\01F91D";
-    padding-right: 3px;
-  }
-
-  .mokumoku3 {
-    position: absolute;
-    z-index: 2;
-    top: -3%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    transform: rotate(15deg);
-    width: 150px;
-    height: 70px;
-    @include overTab {
-      top: 5%;
-      left: 45%;
-      width: 350px;
-      height: 120px;
-    }
-  }
-  .recommend3 {
-    position: absolute;
-    z-index: 2;
-    font-size: 11px;
-    font-weight: bold;
-    top: -2%;
-    left: 67%;
-    transform: translate(-50%, -50%);
-    transform: rotate(18deg);
-    @include overTab {
-      top: 6%;
-      left: 50%;
-      font-size: 24px;
-    }
-    &::before {
-      font-family: "Font Awesome 5 Free";
-      content: "\f521";
-      padding: 5px;
-      font-weight: 900;
-      color: #ffdc00;
     }
   }
   .area5-image1 {
@@ -278,10 +194,6 @@
     @include overTab {
       max-width: 1300px;
     }
-    .map-back {
-      box-shadow: 1px 3px 20px 10px rgb(247, 247, 125),
-        inset 10px 3px 20px 10px rgb(247, 247, 125);
-    }
     .japan-map {
       position: absolute;
       width: 400px;
@@ -351,10 +263,6 @@
         top: 42%;
         left: 15%;
       }
-    }
-
-    .map-back {
-      opacity: 0.4;
     }
     h2 {
       position: absolute;
@@ -436,10 +344,6 @@
     .follow-me li a[href*="facebook.com"]::before {
       background-color: #3b5998;
       content: "\f09a";
-    }
-    .follow-me li a[href*="wa.me"]::before {
-      background-color: #25d366;
-      content: "\f40c";
     }
     .follow-me li a[href*="youtube.com"]::before {
       background-color: #cd201f;
@@ -774,21 +678,6 @@
     content: "\f16a";
   }
 
-  /* Social media links: LINE  */
-  .what a::before {
-    font-family: FontAwesome;
-  }
-  .what a[href*="wa.me"]::before {
-    background-color: #25d366;
-    content: "\f40c";
-  }
-  .what a::after {
-    font-family: FontAwesome;
-  }
-  .what a[href*="wa.me"]::after {
-    background-color: #25d366;
-    content: "\f40c";
-  }
   /* Social media links: facebook  */
   .facebook a::before {
     font-family: FontAwesome;

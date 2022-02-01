@@ -30,27 +30,6 @@
     color: white;
     font-weight: bold;
   }
-  .heading-text {
-    visibility: hidden;
-    @include overTab {
-    }
-  }
-  .heading1::before {
-    content: attr(data-en);
-    position: absolute;
-    top: -30px;
-    left: 60px;
-    color: rgba(255, 255, 255, 0.521);
-    font-size: 50px;
-    text-transform: uppercase;
-    z-index: 1;
-    font-style: italic;
-    @include overTab {
-      font-size: 70px;
-      top: -40px;
-      left: 60px;
-    }
-  }
 
   .list_design1 {
     list-style: none;
@@ -117,84 +96,6 @@
     position: relative;
     margin-bottom: 40px;
   }
-  .area1-1-wifi1 {
-    display: grid;
-    margin: 0 auto;
-    img {
-      position: absolute;
-      margin-top: 80px;
-      display: block;
-      width: 160px;
-      height: auto;
-      z-index: 4;
-      top: 275%;
-      left: 60%;
-      transform: translate(-50%, -50%);
-      @include overTab {
-        width: 270px;
-        top: 50%;
-        left: 85%;
-      }
-    }
-    .kira1 {
-      width: 120px;
-      position: absolute;
-      top: 356%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 5;
-      @include overTab {
-        width: 250px;
-        top: 25%;
-        left: 80%;
-      }
-    }
-    .kira2 {
-      width: 180px;
-      position: absolute;
-      top: 358%;
-      left: 55%;
-      transform: translate(-50%, -50%);
-      z-index: 5;
-      @include overTab {
-        width: 250px;
-        top: 25%;
-        left: 80%;
-      }
-    }
-    .kira3 {
-      width: 140px;
-      position: absolute;
-      top: 365%;
-      left: 65%;
-      transform: translate(-50%, -50%);
-      transform: rotate(90deg);
-      z-index: 5;
-      @include overTab {
-        width: 150px;
-        top: 30%;
-        left: 88%;
-      }
-    }
-    .circle {
-      position: absolute;
-      top: 415%;
-      left: 60%;
-      transform: translate(-50%, -50%);
-      background: white;
-      border-radius: 50%;
-      box-shadow: 0.375em 0.375em 0 0 rgb(247, 247, 125);
-      height: 5em;
-      width: 15em;
-      @include overTab {
-        height: 10em;
-        width: 20em;
-        top: 85%;
-        left: 85%;
-        transform: translate(-50%, -50%);
-      }
-    }
-  }
   .area1-1-gbps1 {
     display: grid;
     margin: 0 auto;
@@ -205,7 +106,7 @@
       width: 180px;
       height: auto;
       z-index: 4;
-      top: 300%;
+      top: 310%;
       left: 35%;
       transform: translate(-50%, -50%);
       @include overTab {
@@ -215,7 +116,7 @@
       }
     }
     .area1-1-gbps3 {
-      top: 300%;
+      top: 305%;
       left: 70%;
       width: 150px;
       @include overTab {
@@ -227,7 +128,7 @@
     .kira1 {
       width: 120px;
       position: absolute;
-      top: 265%;
+      top: 270%;
       left: 25%;
       transform: translate(-50%, -50%);
       z-index: 5;
@@ -240,7 +141,7 @@
     .kira2 {
       width: 180px;
       position: absolute;
-      top: 265%;
+      top: 270%;
       left: 58%;
       transform: translate(-50%, -50%);
       z-index: 5;
@@ -253,7 +154,7 @@
     .kira3 {
       width: 200px;
       position: absolute;
-      top: 265%;
+      top: 270%;
       left: 82%;
       transform: translate(-50%, -50%);
       transform: rotate(90deg);
@@ -266,7 +167,7 @@
     }
     .circle {
       position: absolute;
-      top: 345%;
+      top: 360%;
       left: 50%;
       transform: translate(-50%, -50%);
       background: white;
@@ -285,7 +186,7 @@
     .gbps-text {
       position: absolute;
       width: 220px;
-      top: 358%;
+      top: 366%;
       left: 50%;
       padding: 5px 0;
       transform: translate(-50%, -50%);
@@ -374,6 +275,10 @@
       @include overTab {
         font-size: 30px;
       }
+    }
+    #emoji3:before {
+      content: "\01F1EF \01F1F5";
+      padding-right: 3px;
     }
     #emoji4:before {
       content: "\01F64F";

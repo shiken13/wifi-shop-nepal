@@ -45,18 +45,6 @@ header {
       top: 2%;
     }
   }
-  ul {
-    position: relative;
-    left: 35%;
-    margin: 0 auto;
-    display: flex;
-    // justify-content: space-between;
-    padding-top: 70px;
-    @include overTab {
-      padding-top: 180px;
-      padding-bottom: 20px;
-    }
-  }
 
   .profile-area {
     margin: 0 auto;
@@ -105,21 +93,7 @@ header {
         width: 220px;
       }
     }
-    .profile1 {
-      z-index: 5;
-      top: -56%;
-      height: 120px;
-      width: 120px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      // transform: rotate(-20deg);
-      @include overTab {
-        top: -25%;
-        left: 50%;
-        height: 170px;
-        width: 180px;
-      }
-    }
+
   }
   #emoji1:before {
     content: "\01F64F";

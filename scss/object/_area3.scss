@@ -1,15 +1,12 @@
 #area3{
   list-style: inherit;
-  .area3-upper, .area3-lower{
+  .area3-upper{
     max-width: 760px;
     margin: 0 auto;
     position: relative;
     @include overTab {
       max-width: 1300px;
     }
-  }
-  .area3-lower{
-    margin-top: 40px;
   }
   .heading2 {
     max-width: 760px;
@@ -36,22 +33,6 @@
     color: white;
     font-weight: bold;
   }
-  .heading2::before {
-    content: attr(data-en);
-    position: absolute;
-    top: -30px;
-    left: 60px;
-    color: rgba(255, 255, 255, 0.521);
-    font-size: 50px;
-    text-transform: uppercase;
-    z-index: 1;
-    font-style: italic;
-    @include overTab {
-      font-size: 70px;
-      top: -40px;
-      left: 60px;
-    }
-  }
   .list_design1 {
     list-style: none;
     counter-reset: list;
@@ -65,12 +46,6 @@
     @include overTab {
       padding: 1rem 1rem;
       margin: 1rem;
-    }
-  }
-  .list_design2 {
-    margin-bottom: 400px;
-    @include overTab {
-      margin-bottom: inherit;
     }
   }
   .list_design1 li {
@@ -119,26 +94,6 @@
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-  }
-  h3 {
-    color: black;
-    font-size: 17px;
-    border-left: solid 8px orange;/*左側の線*/
-    background: whitesmoke;/*背景色*/
-    margin-bottom: 5px;/*下のバーとの余白*/
-    margin-top: 5px;
-    margin-left: 10px;
-    line-height: 1.5;
-    border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
-    padding: 0.5em;
-    width: 85%;
-    list-style-type: none!important;
-    @include overTab {
-      font-size: 25px;
-      width: 50%;
-      margin-left: 30px;
-      margin-top: 25px;
-    }
   }
   .area3-textarea1{
     position: relative;
@@ -222,28 +177,6 @@
       color:#FFDC00;
     }
   }
-  .recommend2{
-    position: absolute;
-    z-index: 2;
-    font-size: 15px;
-    font-weight: bold;
-    top: -1.5%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    transform:rotate(18deg);
-    @include overTab {
-      top: -2%;
-      left: 46%;
-      font-size: 26px;
-    }
-    &::before{
-      font-family: "Font Awesome 5 Free";
-      content:'\f521';
-      padding:5px;
-      font-weight:900;
-      color:#FFDC00;
-    }
-  }
   .area3-image1{
     width: 250px;
     position: absolute;
@@ -314,7 +247,7 @@
       left: 84%;
     }
   }
-  .circle1, .circle2 {
+  .circle1{
     position: absolute;
     top: 120%;
     left:50%;
@@ -332,13 +265,7 @@
       transform: translate(-50%, -50%);
     }
   }
-  // .circle2{
-  //   top: 150%;
-  //   @include overTab {
-  //   top: 55%;
-  //   }
-  // }
-  .sim-text1, .sim-text2{
+  .sim-text1{
     position: absolute;
     width: 220px;
     top: 125%;
@@ -360,17 +287,4 @@
       left: 80%;   
     }
   }
-  // .sim-text2{
-  //   top: 160%;
-  //   @include overTab {
-  //   top: 70%;
-  //   }
-  // }
-  .border1{
-    margin: 0 auto;
-    width: 90%;
-    max-width: 1300px;
-    border-bottom: 1px dashed red;
-  }
-
 }
