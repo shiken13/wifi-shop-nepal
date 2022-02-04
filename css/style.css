@@ -930,10 +930,10 @@ footer .copyright p {
 
 #area1 .fukidashi1 {
   width: 50vw;
-  height: 80px;
-  top: -60px;
+  height: 70px;
+  top: -50px;
   position: absolute;
-  left: 0px;
+  left: -10px;
   z-index: 11;
 }
 
@@ -947,8 +947,8 @@ footer .copyright p {
 }
 
 #area1 .customer-text {
-  top: -45px;
-  left: 30px;
+  top: -30px;
+  left: 10px;
   position: absolute;
   font-size: 0.9rem;
   font-weight: bold;
@@ -958,8 +958,8 @@ footer .copyright p {
 @media print, screen and (min-width: 768px) {
   #area1 .customer-text {
     font-size: 1.5rem;
-    top: -78px;
-    left: 250px;
+    top: -65px;
+    left: 240px;
   }
 }
 
